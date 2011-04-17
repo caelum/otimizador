@@ -1,0 +1,1 @@
+alert('Simple JS. Let it pass.')

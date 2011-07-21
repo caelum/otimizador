@@ -6,7 +6,7 @@ import local._
 object TestFileSystemWatcher {
 
   def main(args: Array[String]): Unit = { 
-	  val watcher = new FileSystemWatcher
+	  val watcher = new Java7FileSystemWatcher
 	  watcher.watch(new File("."))
   }
 
